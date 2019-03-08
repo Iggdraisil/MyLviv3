@@ -1,5 +1,6 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_submit_problem"
     android:layout_height="match_parent"
     android:background="#00d5ef"
     android:layout_width="match_parent">
@@ -28,13 +29,13 @@
 
     <ImageView
         android:paddingTop="16dp"
-        android:id="@+id/ProblemPhoto"
+        android:id="@+id/submit_problem_photo"
         android:layout_width="match_parent"
         android:layout_height="252dp"
         android:src="@drawable/yama" />
 
    <EditText
-       android:id="@+id/ProblemCategory"
+       android:id="@+id/submit_problem_category"
        android:layout_margin="8dp"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
@@ -53,7 +54,7 @@
         android:paddingRight="8dp">
 
         <EditText
-            android:id="@+id/ProblemLocation"
+            android:id="@+id/submit_problem_location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="Городоцька 306"
@@ -69,7 +70,7 @@
     </LinearLayout>
 
     <EditText
-        android:id="@+id/ProblemStatement"
+        android:id="@+id/submit_problem_description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Коли поремонтують дороги від снігу
@@ -79,7 +80,7 @@
         android:inputType="textMultiLine" />
 
     <Button
-        android:id="@+id/SubmitButton"
+        android:id="@+id/submit_problem_button"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
